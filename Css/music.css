@@ -14,7 +14,7 @@
   }
   
   body {
-    /* background-image: url('/thuchanh/img/night.jpg'); */
+    /* background-image: url('../img/night.jpg'); */
     background-color: #f5f5f5;
   }
   
@@ -44,7 +44,7 @@
   .dashboard {
     padding: 16px 16px 14px;
     /* background-color: #fff; */
-    background-image: url('/thuchanh/img/night.jpg');
+    background-image: url('../img/night.jpg');
     position: fixed;
     top: 0;
     width: 100%;
@@ -136,7 +136,7 @@
   
   /* PLAYLIST */
   .playlist {
-    background-image: url('/thuchanh/img/night.jpg');
+    background-image: url('../img/night.jpg');
     margin-top: 408px;
     padding: 12px;
   }
