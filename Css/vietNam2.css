@@ -1,0 +1,155 @@
+:root {
+    --primary-color: #ec1f55;
+    --text-color: #333;
+  }
+  
+  /* latin-ext */
+
+  /* Het fonttttttttttttttttttttttt */
+
+  * {
+    padding: 0;
+    margin: 0;
+    box-sizing: inherit;
+  }
+  
+  body {
+    position: relative;
+    background-image: url('/thuchanh/img/night.jpg');
+    /* background-color: #f5f5f5; */
+  }
+  
+  html {
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+  }
+  
+  .player {
+    position: relative;
+    max-width: 480px;
+    margin: 0 auto;
+  }
+  
+  .dashboard {
+    padding: 16px 16px 14px;
+    /* background-color: #fff; */
+    background-image: url('/thuchanh/img/night.jpg');
+    position: fixed;
+    top: 0;
+    width: 100%;
+    max-width: 350px;
+    z-index: 2;
+    /* border-bottom: 1px solid #ebebeb; */
+  }
+  
+  /* HEADER */
+  header {
+    text-align: center;
+    margin-bottom: 10px;
+  }
+  
+  header h2 {
+    color: #fff;
+    font-size: 20px;
+  }
+  
+  /* CD */
+  .cd {
+    display: flex;
+    margin: auto;
+    width: 200px;
+    height: 60px;
+    padding-top: 20px;
+    color: #fff;
+    text-align: center;
+    padding-left: 13%;
+    font-size: 30px;
+  }
+
+  /* PLAYLIST */
+  .playlist {
+    position: relative;
+    background-color: #fff;
+    /* background-image: url('/thuchanh/img/night.jpg'); */
+    margin-top: 131px;
+    padding: 12px;
+    border: solid 7px;
+    border-radius: 20px;
+    margin-left: 0;
+    overflow:auto;
+  }
+  
+  .song {
+    position: relative;
+    display: flex;
+    align-items: center;
+    margin-bottom: 12px;
+    background-color: #fff;
+    padding: 8px 16px;
+    border-radius: 5px;
+    box-shadow: 0 2px 3px rgba(0, 0, 0, 0.1);
+  }
+  
+  .song.active {
+    background-color: var(--primary-color);
+  }
+  
+  .song:active {
+    opacity: 0.8;
+  }
+  
+  .song.active .option,
+  .song.active .author,
+  .song.active .title {
+    color: #fff;
+  }
+  
+  .song .thumb {
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+    background-size: cover;
+    margin: 0 8px;
+  }
+  
+  .song .body {
+    flex: 1;
+    padding: 0 16px;
+  }
+  
+  .song .title {
+    font-size: 18px;
+    color: var(--text-color);
+  }
+  
+  .song .author {
+    font-size: 12px;
+    color: #999;
+  }
+
+  .song a{
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    z-index: 3;
+  }
+
+  .home{
+    top: 10px;
+    left: 10px;
+    font-size: 25px;
+    position: fixed;
+    color: #fff;
+    z-index: 4;
+  }
+
+  .home a{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 5;
+  }

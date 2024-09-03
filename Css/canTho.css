@@ -1,0 +1,66 @@
+@charset "utf-8";
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.first{
+    background-image: url('/thuchanh/img/canTho/canTho.png');
+    background-size: cover;
+    height: 50vh;
+}
+
+.last{
+    height: 50vh;
+    background-color: black;
+    text-align: center;
+}
+
+p {
+    padding-top: 30%;
+    font-weight: 700;
+    text-align: center;
+    font-size: 40px;
+    font-family: Hack, sans-serif;
+    text-transform: uppercase;
+    background: linear-gradient(90deg, #000, #fff, #000);
+    letter-spacing: 5px;
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-repeat: no-repeat;
+    background-size: 80%;
+    animation: shine 4s linear infinite;
+    position: relative;
+  }
+  
+  @keyframes shine {
+    0% {
+      background-position-x: -500%;
+    }
+    100% {
+      background-position-x: 500%;
+    }
+  }
+
+  .home{
+    position: absolute;
+    position: fixed;
+    bottom: 2%;
+    right: 3%;
+    color: #fff;
+    font-size: 25px;
+    opacity: 0.8;
+    z-index: 2;
+  }
+  
+  .home a{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 3;
+  }

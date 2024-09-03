@@ -1,0 +1,681 @@
+@charset "utf-8";
+
+@font-face{
+	font-family: Francois;
+	src:url("/thuchanh/Font/FrancoisOne-Regular.ttf");
+}
+
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+
+.web{
+    top: 0;
+    right: 0;
+    left: 0;
+    min-width: 20px;
+    max-width: 100vh;
+    background-image: url('/thuchanh/img/VN.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    position: absolute;
+}
+
+ul {
+    list-style-type: none;
+}
+
+li{
+    display: block;
+    height: 50px;
+    max-width: 190px;
+    border-radius: 50px;
+    color: #fbf0ea;
+    background: linear-gradient(120deg, #a1c9f1 70%, #fbf0ea 30%);
+    text-align: left;
+    margin-left: 25%;
+    margin-top: 25px;
+    padding-top: 15px;
+    padding-left: 10px;
+    position: relative;
+}
+
+#last{
+    margin-bottom: 25px;
+}
+
+.home{
+    position: fixed;
+    bottom: 2%;
+    right: 3%;
+    color: #000;
+    font-size: 25px;
+    opacity: 0.8;
+}
+
+#anGiang{
+    position: absolute;
+    top: 9px;
+    right: 7px;
+    background-image: url('/thuchanh/img/logoAnGiang.png');
+    background-size:contain;
+    height: 29px;
+    width: 41px;
+}
+
+#brvt{
+    position: absolute;
+    top: 9px;
+    right: 15px;
+    background-image: url('/thuchanh/img/logoBRVT.png');
+    background-size:contain;
+    height: 30px;
+    width: 20px;
+}
+
+#bacGiang{
+    position: absolute;
+    top: 8px;
+    right: 10px;
+    background-image: url('/thuchanh/img/logoBacGiang.png');
+    background-size:contain;
+    height: 35px;
+    width: 35px;
+}
+
+#bacKan{
+    position: absolute;
+    top: 8px;
+    right: 10px;
+    background-image: url('/thuchanh/img/logoBacKan.png');
+    background-size:contain;
+    height: 35px;
+    width: 35px;
+}
+
+#bacLieu{
+    position: absolute;
+    top: 8px;
+    right: 10px;
+    background-image: url('/thuchanh/img/logoBacLieu.png');
+    background-size:contain;
+    height: 35px;
+    width: 35px;
+}
+
+#bacNinh{
+    position: absolute;
+    top: 8px;
+    right: 9px;
+    background-image: url('/thuchanh/img/logoBNinh.png');
+    background-size:contain;
+    height: 35px;
+    width: 35px;
+}
+
+#benTre{
+    position: absolute;
+    top: 7px;
+    right: 8px;
+    background-image: url('/thuchanh/img/logoBTre.png');
+    background-size:contain;
+    height: 35px;
+    width: 35px;
+}
+
+#binhDinh{
+    position: absolute;
+    top: 8px;
+    right: 10px;
+    background-image: url('/thuchanh/img/logoBDinh.png');
+    background-size:contain;
+    height: 33px;
+    width: 33px;
+}
+
+#binhDuong{
+    position: absolute;
+    top: 8px;
+    right: 10px;
+    background-image: url('/thuchanh/img/logoBDuong.png');
+    background-size:contain;
+    height: 35px;
+    width: 35px;
+}
+
+#binhPhuoc{
+    position: absolute;
+    top: 8px;
+    right: 10px;
+    background-image: url('/thuchanh/img/logoBPhuoc.png');
+    background-size:contain;
+    height: 35px;
+    width: 35px;
+}
+
+#binhThuan{
+    position: absolute;
+    top: 7px;
+    right: 10px;
+    background-image: url('/thuchanh/img/logoBThuan.png');
+    background-size:contain;
+    height: 35px;
+    width: 35px;
+}
+
+#caMau{
+    position: absolute;
+    top: 7px;
+    right: 10px;
+    background-image: url('/thuchanh/img/logoCaMau.png');
+    background-size:contain;
+    height: 35px;
+    width: 35px;
+}
+
+#canTho{
+    position: absolute;
+    top: 7px;
+    right: 10px;
+    background-image: url('/thuchanh/img/logoCanTho.png');
+    background-size:contain;
+    height: 35px;
+    width: 35px;
+}
+
+#caoBang{
+    position: absolute;
+    top: 10px;
+    right: 6px;
+    background-image: url('/thuchanh/img/logoCBang.png');
+    background-size:contain;
+    height: 30px;
+    width: 45px;
+}
+
+#daNang{
+    position: absolute;
+    top: 7px;
+    right: 9px;
+    background-image: url('/thuchanh/img/logoDaNang.png');
+    background-size:contain;
+    height: 35px;
+    width: 34px;
+}
+
+#dakLak{
+    position: absolute;
+    top: 7px;
+    right: 8px;
+    background-image: url('/thuchanh/img/logoDLak.png');
+    background-size:contain;
+    height: 35px;
+    width: 35px;
+}
+
+#dakNong{
+    position: absolute;
+    top: 7px;
+    right: 8px;
+    background-image: url('/thuchanh/img/logoDNong.png');
+    background-size:contain;
+    height: 35px;
+    width: 35px;
+}
+
+#dienBien{
+    position: absolute;
+    top: 7px;
+    right: 8px;
+    background-image: url('/thuchanh/img/logoDBien.png');
+    background-size:contain;
+    height: 35px;
+    width: 35px;
+}
+
+#dongNai{
+    position: absolute;
+    top: 5px;
+    right: 8px;
+    background-image: url('/thuchanh/img/logoDNai.png');
+    background-size:contain;
+    height: 40px;
+    width: 35px;
+}
+
+#dongThap{
+    position: absolute;
+    top: 7px;
+    right: 8px;
+    background-image: url('/thuchanh/img/logoDThap.png');
+    background-size:contain;
+    height: 35px;
+    width: 35px;
+}
+
+#giaLai{
+    position: absolute;
+    top: 7px;
+    right: 8px;
+    background-image: url('/thuchanh/img/logoGLai.png');
+    background-size:contain;
+    height: 35px;
+    width: 35px;
+}
+
+#haGiang{
+    position: absolute;
+    top: 7px;
+    right: 13px;
+    background-image: url('/thuchanh/img/logoHGiang.png');
+    background-size:contain;
+    height: 35px;
+    width: 20px;
+}
+
+#haNam{
+    position: absolute;
+    top: 7px;
+    right: 8px;
+    background-image: url('/thuchanh/img/logoHNam.png');
+    background-size:contain;
+    height: 35px;
+    width: 35px;
+}
+
+#haNoi{
+    position: absolute;
+    top: 7px;
+    right: 8px;
+    background-image: url('/thuchanh/img/logoHNoi.png');
+    background-size:contain;
+    height: 35px;
+    width: 35px;
+}
+
+#haTinh{
+    position: absolute;
+    top: 7px;
+    right: 8px;
+    background-image: url('/thuchanh/img/logoHTinh.png');
+    background-size:contain;
+    height: 35px;
+    width: 35px;
+}
+
+#haiDuong{
+    position: absolute;
+    top: 7px;
+    right: 8px;
+    background-image: url('/thuchanh/img/logoHDuong.png');
+    background-size:contain;
+    height: 35px;
+    width: 35px;
+}
+
+#haiPhong{
+    position: absolute;
+    top: 7px;
+    right: 8px;
+    background-image: url('/thuchanh/img/logoHPh.png');
+    background-size:contain;
+    height: 35px;
+    width: 35px;
+}
+
+#hauGiang{
+    position: absolute;
+    top: 10px;
+    right: 8px;
+    background-image: url('/thuchanh/img/logoHauGiang.png');
+    background-size:contain;
+    height: 30px;
+    width: 30px;
+}
+
+#hoaBinh{
+    position: absolute;
+    top: 7px;
+    right: 8px;
+    background-image: url('/thuchanh/img/logoHBinh.png');
+    background-size:contain;
+    height: 35px;
+    width: 35px;
+}
+
+#hungYen{
+    position: absolute;
+    top: 7px;
+    right: 8px;
+    background-image: url('/thuchanh/img/logoHYen.png');
+    background-size:contain;
+    height: 35px;
+    width: 35px;
+}
+
+#khanhHoa{
+    position: absolute;
+    top: 7px;
+    right: 8px;
+    background-image: url('/thuchanh/img/logoKHoa.png');
+    background-size:contain;
+    height: 35px;
+    width: 35px;
+}
+
+#kienGiang{
+    position: absolute;
+    top: 7px;
+    right: 8px;
+    background-image: url('/thuchanh/img/logoKienGiang.png');
+    background-size:contain;
+    height: 35px;
+    width: 35px;
+}
+
+#konTum{
+    position: absolute;
+    top: 7px;
+    right: 8px;
+    background-image: url('/thuchanh/img/logoKonTum.png');
+    background-size:contain;
+    height: 35px;
+    width: 35px;
+}
+
+#laiChau{
+    position: absolute;
+    top: 7px;
+    right: 8px;
+    background-image: url('/thuchanh/img/logoLaiChau.png');
+    background-size:contain;
+    height: 35px;
+    width: 35px;
+}
+
+#lamDong{
+    position: absolute;
+    top: 7px;
+    right: 8px;
+    background-image: url('/thuchanh/img/logoLamDong.png');
+    background-size:contain;
+    height: 37px;
+    width: 35px;
+}
+
+#langSon{
+    position: absolute;
+    top: 7px;
+    right: 8px;
+    background-image: url('/thuchanh/img/logoLSon.png');
+    background-size:contain;
+    height: 35px;
+    width: 35px;
+}
+
+#laoCai{
+    position: absolute;
+    top: 7px;
+    right: 8px;
+    background-image: url('/thuchanh/img/logoLaoCai.png');
+    background-size:contain;
+    height: 35px;
+    width: 35px;
+}
+
+#longAn{
+    position: absolute;
+    top: 7px;
+    right: 8px;
+    background-image: url('/thuchanh/img/logoLongAn.png');
+    background-size:contain;
+    height: 35px;
+    width: 35px;
+}
+
+#namDinh{
+    position: absolute;
+    top: 7px;
+    right: 8px;
+    background-image: url('/thuchanh/img/logoNDinh.png');
+    background-size:contain;
+    height: 35px;
+    width: 35px;
+}
+
+#ngheAn{
+    position: absolute;
+    top: 7px;
+    right: 5px;
+    background-image: url('/thuchanh/img/logoNgheAn.png');
+    background-size:contain;
+    height: 35px;
+    width: 42px;
+}
+
+#ninhBinh{
+    position: absolute;
+    top: 7px;
+    right: 8px;
+    background-image: url('/thuchanh/img/logoNBinh.png');
+    background-size:contain;
+    height: 35px;
+    width: 35px;
+}
+
+#ninhThuan{
+    position: absolute;
+    top: 7px;
+    right: 8px;
+    background-image: url('/thuchanh/img/logoNThuan.png');
+    background-size:contain;
+    height: 35px;
+    width: 35px;
+}
+
+#phuTho{
+    position: absolute;
+    top: 7px;
+    right: 8px;
+    background-image: url('/thuchanh/img/logoPTho.png');
+    background-size:contain;
+    height: 35px;
+    width: 35px;
+}
+
+#phuYen{
+    position: absolute;
+    top: 7px;
+    right: 8px;
+    background-image: url('/thuchanh/img/logoPYen.png');
+    background-size:contain;
+    height: 35px;
+    width: 35px;
+}
+
+#quangBinh{
+    position: absolute;
+    top: 7px;
+    right: 8px;
+    background-image: url('/thuchanh/img/logoQBinh.png');
+    background-size:contain;
+    height: 35px;
+    width: 35px;
+}
+
+#quangNam{
+    position: absolute;
+    top: 7px;
+    right: 8px;
+    background-image: url('/thuchanh/img/logoQNam.png');
+    background-size:contain;
+    height: 35px;
+    width: 35px;
+}
+
+#quangNgai{
+    position: absolute;
+    top: 7px;
+    right: 8px;
+    background-image: url('/thuchanh/img/logotpQNgai.png');
+    background-size:contain;
+    height: 35px;
+    width: 35px;
+}
+
+#quangNinh{
+    position: absolute;
+    top: 7px;
+    right: 8px;
+    background-image: url('/thuchanh/img/logoQNinh.png');
+    background-size:contain;
+    height: 35px;
+    width: 35px;
+}
+
+#quangTri{
+    position: absolute;
+    top: 7px;
+    right: 8px;
+    background-image: url('/thuchanh/img/logoQTri.png');
+    background-size:contain;
+    height: 35px;
+    width: 35px;
+}
+
+#socTrang{
+    position: absolute;
+    top: 7px;
+    right: 8px;
+    background-image: url('/thuchanh/img/logoSTrang.png');
+    background-size:contain;
+    height: 35px;
+    width: 35px;
+}
+
+#sonLa{
+    position: absolute;
+    top: 7px;
+    right: 8px;
+    background-image: url('/thuchanh/img/logoSonLa.png');
+    background-size:contain;
+    height: 35px;
+    width: 35px;
+}
+
+#tayNinh{
+    position: absolute;
+    top: 7px;
+    right: 8px;
+    background-image: url('/thuchanh/img/logoTNinh.png');
+    background-size:contain;
+    height: 35px;
+    width: 35px;
+}
+
+#thaiNguyen{
+    position: absolute;
+    top: 7px;
+    right: 8px;
+    background-image: url('/thuchanh/img/logoTNguyen.png');
+    background-size:contain;
+    height: 36px;
+    width: 35px;
+}
+
+#thanhHoa{
+    position: absolute;
+    top: 7px;
+    right: 8px;
+    background-image: url('/thuchanh/img/logoTHoa.png');
+    background-size:contain;
+    height: 35px;
+    width: 35px;
+}
+
+#thuaThienHue{
+    position: absolute;
+    top: 7px;
+    right: 8px;
+    background-image: url('/thuchanh/img/logoTTH.png');
+    background-size:contain;
+    height: 35px;
+    width: 35px;
+}
+
+#tienGiang{
+    position: absolute;
+    top: 7px;
+    right: 8px;
+    background-image: url('/thuchanh/img/logoTGiang.png');
+    background-size:contain;
+    height: 35px;
+    width: 35px;
+}
+
+#tpHCM{
+    position: absolute;
+    top: 7px;
+    right: 8px;
+    background-image: url('/thuchanh/img/logoTPHCM.png');
+    background-size:contain;
+    height: 35px;
+    width: 35px;
+}
+
+#traVinh{
+    position: absolute;
+    top: 7px;
+    right: 8px;
+    background-image: url('/thuchanh/img/logoTraVinh.png');
+    background-size:contain;
+    height: 35px;
+    width: 35px;
+}
+
+#tuyenQuang{
+    position: absolute;
+    top: 7px;
+    right: 8px;
+    background-image: url('/thuchanh/img/logoTQuang.png');
+    background-size:contain;
+    height: 35px;
+    width: 35px;
+}
+
+#vinhLong{
+    position: absolute;
+    top: 7px;
+    right: 8px;
+    background-image: url('/thuchanh/img/logoVLong.png');
+    background-size:contain;
+    height: 35px;
+    width: 35px;
+}
+
+#vinhPhuc{
+    position: absolute;
+    top: 7px;
+    right: 8px;
+    background-image: url('/thuchanh/img/logoVPhuc.png');
+    background-size:contain;
+    height: 35px;
+    width: 35px;
+}
+
+#yenBai{
+    position: absolute;
+    top: 7px;
+    right: 8px;
+    background-image: url('/thuchanh/img/logoYBai.png');
+    background-size:contain;
+    height: 35px;
+    width: 35px;
+}
