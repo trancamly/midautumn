@@ -37,7 +37,7 @@
     position: fixed;
     top: 0;
     width: 100%;
-    max-width: 350px;
+    /* max-width: 350px; */
     z-index: 2;
     /* border-bottom: 1px solid #ebebeb; */
   }

@@ -76,14 +76,15 @@ ul {
 }
 
 .in4{
+    background-image: url('./img/loicamon.png');
+    background-size: cover;
     /* display: none; */
-    background-color: #edaa89;
+    /* background-color: #edaa89; */
     position: absolute;
-    top: -250px;
-    left: -15px;
-    min-width: 200px;
-    min-height: 300px;
-    max-height: 300px;
+    top: -300px;
+    left: -30%;
+    width: 40vh;
+    height: 60vh;
     border-radius: 30px;
 }
 
