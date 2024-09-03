@@ -7,7 +7,7 @@
 }
 
 .first{
-    background-image: url('/thuchanh/img/canTho/canTho.png');
+    background-image: url('../img/canTho/canTho.png');
     background-size: cover;
     height: 50vh;
 }

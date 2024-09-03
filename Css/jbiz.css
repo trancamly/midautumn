@@ -2,7 +2,7 @@
 
 @font-face{
 	font-family: Francois;
-	src:url("/thuchanh/Font/FrancoisOne-Regular.ttf");
+	src:url("../Font/FrancoisOne-Regular.ttf");
 }
 
 * {
