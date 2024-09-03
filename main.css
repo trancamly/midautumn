@@ -7,16 +7,16 @@
 
 @font-face{
 	font-family: Chewy;
-	src: url("/thuchanh/Font/Chewy-Regular.ttf");
+	src: url("./Font/Chewy-Regular.ttf");
 }
 
 @font-face{
 	font-family: Francois;
-	src:url("/thuchanh/Font/FrancoisOne-Regular.ttf");
+	src:url("./Font/FrancoisOne-Regular.ttf");
 }
 
 body{
-    background-image: url('/thuchanh/img/sierra-nevada-3840x2160-14543.jpg');
+    background-image: url('./img/sierra-nevada-3840x2160-14543.jpg');
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
