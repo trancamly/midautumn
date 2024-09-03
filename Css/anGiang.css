@@ -99,7 +99,7 @@
   position: relative;
     width: inherit;
     height: 100vh;
-    background-image: url('/thuchanh/img/newspaper.jpg');
+    background-image: url('../img/newspaper.jpg');
     background-size: cover;
 }
 
@@ -294,7 +294,7 @@ button {
   display: grid;
   place-content: center;
   min-height: 100vh;
-  background-image: url('/thuchanh/img/newspaper.jpg');
+  background-image: url('../img/newspaper.jpg');
   overflow: hidden;
   color: white;
 }
