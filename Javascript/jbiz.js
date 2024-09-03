@@ -17,47 +17,47 @@ const app = {
     character: [
         {
            name: "Ryo Yoshizawa",
-           image: "/thuchanh/img/Ryo.jpg",
+           image: "../img/Ryo.jpg",
         },
         {
             name: "Nana Komatsu",
-            image: "/thuchanh/img/nana.jpg",
+            image: "../img/nana.jpg",
         },
         {
             name: "Kento Yamazaki",
-            image: "/thuchanh/img/kento.jpg",
+            image: "../img/kento.jpg",
         },
         {
             name: "Hana Sugisaki",
-            image: "/thuchanh/img/Hana.jpg",
+            image: "../img/Hana.jpg",
         },
         {
             name: "Kentaro Sakaguchi",
-            image: "/thuchanh/img/kentaro.jpg",
+            image: "../img/kentaro.jpg",
         },
         {
             name: "Anna Yamada",
-            image: "/thuchanh/img/Anna.gif",
+            image: "../img/Anna.gif",
         },
         {
             name: "Koshi Mizukami",
-            image: "/thuchanh/img/koshi.jpg",
+            image: "../img/koshi.jpg",
         },
         {
             name: "Fumi Nikaido",
-            image: "/thuchanh/img/fumi.jpg",
+            image: "../img/fumi.jpg",
         },
         {
             name: "Fumiya Takahashi",
-            image: "/thuchanh/img/Fumiya.jpg",
+            image: "../img/Fumiya.jpg",
         },
         {
             name: "Tao Tsuchiya",
-            image: "/thuchanh/img/Tao.jpg",
+            image: "../img/Tao.jpg",
         },
         {
             name: "",
-            image: "/thuchanh/img/koshi2.jpg",
+            image: "../img/koshi2.jpg",
         }
     ],
     
