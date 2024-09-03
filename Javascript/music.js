@@ -21,96 +21,96 @@ const app = {
     {
             name: "願い～あの頃のキミへ～", // "Nghe bài này nhớ crush quá"
             singer: "MIREI",
-            path: "/thuchanh/Audio/當山みれい\ 願いあの頃のキミへ.mp3",
-            image: "/thuchanh/img/Negai.jpg"
+            path: "../Audio/當山みれい\ 願いあの頃のキミへ.mp3",
+            image: "../img/Negai.jpg"
       },
       {
         name: "すずめ", // suzume ost
         singer: "RADWIMPS x 十明",
-        path: "/thuchanh/Audio/RADWIMPS - すずめ feat.十明 [Official Lyric Video].mp3",
-        image: "/thuchanh/img/Song1.png"
+        path: "../Audio/RADWIMPS - すずめ feat.十明 [Official Lyric Video].mp3",
+        image: "../img/Song1.png"
       },
       {
         name: "前前前世", // zenzenzense
         singer: "RADWIMPS",
-        path: "/thuchanh/Audio/RADWIMPS - Zen Zen Zense- 前前前世 Lyric AMV - English & Japanese Sub (Kimi no Na wa- Your Name OST).mp3",
-        image: "/thuchanh/img/zenzenzense.jpg"
+        path: "../Audio/RADWIMPS - Zen Zen Zense- 前前前世 Lyric AMV - English & Japanese Sub (Kimi no Na wa- Your Name OST).mp3",
+        image: "../img/zenzenzense.jpg"
       },
       {
         name: "Nandemonaiya",
         singer: "RADWIMPS",
         path:
-          "/thuchanh/Audio/Nandemonaiya - movie ver..mp3",
-        image: "/thuchanh/img/Nandemonaiya.jpg"
+          "../Audio/Nandemonaiya - movie ver..mp3",
+        image: "../img/Nandemonaiya.jpg"
       },
       {
         name: "Is There Still Anything That Love Can Do?",
         singer: "RADWIMPS",
-        path: "/thuchanh/Audio/Is There Still Anything That Love Can Do-.mp3",
+        path: "../Audio/Is There Still Anything That Love Can Do-.mp3",
         image:
-          "/thuchanh/img/Isthere.jpg"
+          "../img/Isthere.jpg"
       },
       {
         name: "ツバメ", // album the books 2 yoasobi
         singer: "YOASOBI",
-        path: "/thuchanh/Audio/ツバメ- YOASOBI with ミドリーズ Official Music Video.mp3",
+        path: "../Audio/ツバメ- YOASOBI with ミドリーズ Official Music Video.mp3",
         image:
-          "/thuchanh/img/song2.jpg"
+          "../img/song2.jpg"
       },
       {
         name: "祝福", // ost của phim gì có con tóc đỏ 
         singer: "YOASOBI",
         path:
-          "/thuchanh/Audio/YOASOBI祝福Official Music Video (機動戦士ガンダム 水星の魔女オープニングテーマ).mp3",
+          "../Audio/YOASOBI祝福Official Music Video (機動戦士ガンダム 水星の魔女オープニングテーマ).mp3",
         image:
-          "/thuchanh/img/redhair.jpg"
+          "../img/redhair.jpg"
       },
       {
         name: "あの夢をなぞって", // Ano Yume wo Nazotte
         singer: "YOASOBI",
-        path: "/thuchanh/Audio/YOASOBIあの夢をなぞって Official Music Video.mp3",
+        path: "../Audio/YOASOBIあの夢をなぞって Official Music Video.mp3",
         image:
-          "/thuchanh/img/AnoYumewoNazotte.jpg"
+          "../img/AnoYumewoNazotte.jpg"
       },
       {
         name: "群青", // ? Gunjou
         singer: "YOASOBI",
         path:
-          "/thuchanh/Audio/YOASOBI群青Official Music Video.mp3",
+          "../Audio/YOASOBI群青Official Music Video.mp3",
         image:
-          "/thuchanh/img/Gunjou.jpg"
+          "../img/Gunjou.jpg"
       },
       {
         name: "忘不掉的你", // Song3Here
         singer: "H3R3",
         path:
-          "/thuchanh/Audio/忘不掉的你 (忘不掉的你).mp3",
+          "../Audio/忘不掉的你 (忘不掉的你).mp3",
         image:
-          "/thuchanh/img/song3H3r3.jpg"
+          "../img/song3H3r3.jpg"
       },
       {
         name: "再等冬天", // Memories
         singer: "H3R3",
         path:
-          "/thuchanh/Audio/再等冬天 (Memories) (再等冬天(Memories)).mp3",
+          "../Audio/再等冬天 (Memories) (再等冬天(Memories)).mp3",
         image:
-          "/thuchanh/img/Memories.jpg"
+          "../img/Memories.jpg"
       },
       {
         name: "还是会想你", // Song2Here
         singer: "H3R3",
         path:
-          "/thuchanh/Audio/还是会想你 (还是会想你).mp3",
+          "../Audio/还是会想你 (还是会想你).mp3",
         image:
-          "/thuchanh/img/song2H3r3.jpg"
+          "../img/song2H3r3.jpg"
       },
       {
         name: "不再需要妳", // song4here
         singer: "H3R3",
         path:
-          "/thuchanh/Audio/[Vietsub+Pinyin] Không còn cần em nữa (不再需要你) - h3R3- Cao Húc (高旭).mp3",
+          "../Audio/[Vietsub+Pinyin] Không còn cần em nữa (不再需要你) - h3R3- Cao Húc (高旭).mp3",
         image:
-          "/thuchanh/img/song4here.jpg"
+          "../img/song4here.jpg"
       },
     ],
     // Render bài hát
