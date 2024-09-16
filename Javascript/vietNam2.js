@@ -110,7 +110,7 @@ const app ={
             name: "Điện Biên", 
             image: '../img/logoDBien.png',
             location: 'Tây Bắc Bộ',
-            link: '../htmls/DBien.html',
+            link: '../htmls/dienBien.html',
         },
         {
             name: "Đồng Nai", 
